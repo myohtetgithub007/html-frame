@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* ===============================
+common setting
+=============================== */
+a {
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  opacity: 0.8;
+}
+a:active {
+  text-decoration: none;
+}
+a:hover img {
+  opacity: 0.8;
+
+  filter: alpha(opacity=80);
+  -moz-opacity: 0.8;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.clear {
+  clear: both !important;
+}
+.cFix {
+  zoom: 1;
+}
+
+.cFix:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  line-height: 0;
+  content: ".";
+}
+ul {
+  list-style: none;
+}
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+html {
+  text-rendering: optimizeLegibility !important;
+}
+
+body {
+  font-family: "noto-sans-cjk-jp", "ヒラギノ角ゴ Pro W3", "HiraKakuPro-W3",
+    "Hiragino Kaku Gothic Pro", "Hiragino Sans", "メイリオ", "Meiryo",
+    sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+  background: #fff;
+
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: none;
+}
+.pc {
+  display: block;
+}
+.sp {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+}
